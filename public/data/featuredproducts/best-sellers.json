@@ -1,0 +1,44 @@
+
+[{
+  "id": 1,
+  "name": "#208aeb",
+  "price ": "$5.23",
+  "image": "http://dummyimage.com/400x268.png/5fa2dd/ffffff"
+}, {
+  "id": 2,
+  "name": "#8846a1",
+  "price ": "$7.54",
+  "image": "http://dummyimage.com/400x268.png/dddddd/000000"
+}, {
+  "id": 3,
+  "name": "#aef234",
+  "price ": "$3.38",
+  "image": "http://dummyimage.com/400x268.png/cc0000/ffffff"
+}, {
+  "id": 4,
+  "name": "#3f5b6b",
+  "price ": "$5.27",
+  "image": "http://dummyimage.com/400x268.png/ff4444/ffffff"
+}, {
+  "id": 5,
+  "name": "#07a583",
+  "price ": "$6.96",
+  "image": "http://dummyimage.com/400x268.png/cc0000/ffffff"
+}, {
+  "id": 6,
+  "name": "#61c4f9",
+  "price ": "$6.73",
+  "image": "http://dummyimage.com/400x268.png/5fa2dd/ffffff"
+}, {
+  "id": 7,
+  "name": "#b0d5cd",
+  "price ": "$0.97",
+  "image": "http://dummyimage.com/400x268.png/dddddd/000000"
+}, {
+  "id": 8,
+  "name": "#40db17",
+  "price ": "$6.13",
+  "image": "http://dummyimage.com/400x268.png/cc0000/ffffff"
+}
+  ]
+  

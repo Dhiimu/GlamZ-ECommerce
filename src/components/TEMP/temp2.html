@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel with Dots Navigation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-thin.css">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-solid.css">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="animations.css">
+    <style>
+        .carousel-container {
+            position: relative;
+            overflow: hidden;
+          
+        }
+
+        .carousel-wrapper {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .carousel-slide {
+            display: flex;
+            flex: 0 0  100%;
+            /* Adjust as needed */
+        }
+
+        .carousel-item {
+            flex: 1;
+          
+            margin-left: 16px;
+           
+            box-sizing: border-box;
+        }
+
+        .carousel-dots {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .carousel-dot {
+            display: inline-block;
+            width: 18px;
+            height: 5px;
+            margin: 0 4px;
+            border-radius: 20px;
+            background-color: pink;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .carousel-dot.active {
+            background-color: blueviolet;
+            width: 30px;
+        }
+    </style>
+</head>
+
+<body class="nunito bg-gray-700">
+    <div class="container mx-auto w-3/4">
+        <div class="carousel-container">
+            <div class="carousel-wrapper">
+                <div class="carousel-slide">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item">
+                        <div class="relative group ">
+                            <img src="https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg"
+                                alt="Product 1" class="relative w-full h-auto object-cover">
+                            <div class="absolute right-0 top-2 m-4 flex flex-col gap-3">
+                                <a href="#">
+                                    <i
+                                        class="fa-regular fa-eye bg-white text-gray-600 px-2 py-1.5 text-sm opacity-0 transform translate-x-5 transition-all ease-in-out duration-500 group-hover:opacity-100 group-hover:translate-x-0 delay-[100ms] hover:bg-gray-700 hover:text-white"></i>
+                                </a>
+                                <a href="#">
+                                    <svg class="bg-white text-gray-600 px-2 py-1.5 text-sm opacity-0 transform translate-x-5 transition-all ease-in-out duration-500 group-hover:opacity-100 group-hover:translate-x-0 delay-[300ms] hover:bg-gray-700 hover:text-white"
+                                        xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M3 4v5h2V5h4V3H4a1 1 0 0 0-1 1zm18 5V4a1 1 0 0 0-1-1h-5v2h4v4h2zm-2 10h-4v2h5a1 1 0 0 0 1-1v-5h-2v4zM9 21v-2H5v-4H3v5a1 1 0 0 0 1 1h5zM2 11h20v2H2z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <i
+                                        class="fa-regular fa-link bg-white text-gray-600 px-2 py-1.5 text-sm opacity-0 transform translate-x-5 transition-all ease-in-out duration-500 group-hover:opacity-100 group-hover:translate-x-0 delay-[300ms] hover:bg-gray-700 hover:text-white"></i>
+                                </a>
+                            </div>
+                            <div
+                                class="absolute inset-x-0 bottom-20 items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                                <button class="bg-gray-900 nunito text-white py-2 px-4 w-full custom-button">
+                                    Add To Cart
+                                </button>
+                            </div>
+                            <div class="mt-6">
+                                <h3 class="font-bold text-pink-500 mb-2">Product 1</h3>
+                                <p class="text-black">50.00$</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="relative group ">
+                            <img src="https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg"
+                                alt="Product 1" class="relative w-full h-auto object-cover">
+                            <div class="absolute right-0 top-2 m-4 flex flex-col gap-3">
+                                <a href="#">
+                                    <i
+                                        class="fa-regular fa-eye bg-white text-gray-600 px-2 py-1.5 text-sm opacity-0 transform translate-x-5 transition-all ease-in-out duration-500 group-hover:opacity-100 group-hover:translate-x-0 delay-[100ms] hover:bg-gray-700 hover:text-white"></i>
+                                </a>
+                                <a href="#">
+                                    <svg class="bg-white text-gray-600 px-2 py-1.5 text-sm opacity-0 transform translate-x-5 transition-all ease-in-out duration-500 group-hover:opacity-100 group-hover:translate-x-0 delay-[300ms] hover:bg-gray-700 hover:text-white"
+                                        xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M3 4v5h2V5h4V3H4a1 1 0 0 0-1 1zm18 5V4a1 1 0 0 0-1-1h-5v2h4v4h2zm-2 10h-4v2h5a1 1 0 0 0 1-1v-5h-2v4zM9 21v-2H5v-4H3v5a1 1 0 0 0 1 1h5zM2 11h20v2H2z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <i
+                                        class="fa-regular fa-link bg-white text-gray-600 px-2 py-1.5 text-sm opacity-0 transform translate-x-5 transition-all ease-in-out duration-500 group-hover:opacity-100 group-hover:translate-x-0 delay-[300ms] hover:bg-gray-700 hover:text-white"></i>
+                                </a>
+                            </div>
+                            <div
+                                class="absolute inset-x-0 bottom-20 items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                                <button class="bg-gray-900 nunito text-white py-2 px-4 w-full custom-button">
+                                    Add To Cart
+                                </button>
+                            </div>
+                            <div class="mt-6">
+                                <h3 class="font-bold text-pink-500 mb-2">Product 1</h3>
+                                <p class="text-black">50.00$</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="relative group ">
+                            <img src="https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg"
+                                alt="Product 1" class="relative w-full h-auto object-cover">
+                            <div class="absolute right-0 top-2 m-4 flex flex-col gap-3">
+                                <a href="#">
+                                    <i
+                                        class="fa-regular fa-eye bg-white text-gray-600 px-2 py-1.5 text-sm opacity-0 transform translate-x-5 transition-all ease-in-out duration-500 group-hover:opacity-100 group-hover:translate-x-0 delay-[100ms] hover:bg-gray-700 hover:text-white"></i>
+                                </a>
+                                <a href="#">
+                                    <svg class="bg-white text-gray-600 px-2 py-1.5 text-sm opacity-0 transform translate-x-5 transition-all ease-in-out duration-500 group-hover:opacity-100 group-hover:translate-x-0 delay-[300ms] hover:bg-gray-700 hover:text-white"
+                                        xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M3 4v5h2V5h4V3H4a1 1 0 0 0-1 1zm18 5V4a1 1 0 0 0-1-1h-5v2h4v4h2zm-2 10h-4v2h5a1 1 0 0 0 1-1v-5h-2v4zM9 21v-2H5v-4H3v5a1 1 0 0 0 1 1h5zM2 11h20v2H2z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <i
+                                        class="fa-regular fa-link bg-white text-gray-600 px-2 py-1.5 text-sm opacity-0 transform translate-x-5 transition-all ease-in-out duration-500 group-hover:opacity-100 group-hover:translate-x-0 delay-[300ms] hover:bg-gray-700 hover:text-white"></i>
+                                </a>
+                            </div>
+                            <div
+                                class="absolute inset-x-0 bottom-20 items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                                <button class="bg-gray-900 nunito text-white py-2 px-4 w-full custom-button">
+                                    Add To Cart
+                                </button>
+                            </div>
+                            <div class="mt-6">
+                                <h3 class="font-bold text-pink-500 mb-2">Product 1</h3>
+                                <p class="text-black">50.00$</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="relative group ">
+                            <img src="https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg"
+                                alt="Product 1" class="relative w-full h-auto object-cover">
+                            <div class="absolute right-0 top-2 m-4 flex flex-col gap-3">
+                                <a href="#">
+                                    <i
+                                        class="fa-regular fa-eye bg-white text-gray-600 px-2 py-1.5 text-sm opacity-0 transform translate-x-5 transition-all ease-in-out duration-500 group-hover:opacity-100 group-hover:translate-x-0 delay-[100ms] hover:bg-gray-700 hover:text-white"></i>
+                                </a>
+                                <a href="#">
+                                    <svg class="bg-white text-gray-600 px-2 py-1.5 text-sm opacity-0 transform translate-x-5 transition-all ease-in-out duration-500 group-hover:opacity-100 group-hover:translate-x-0 delay-[300ms] hover:bg-gray-700 hover:text-white"
+                                        xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M3 4v5h2V5h4V3H4a1 1 0 0 0-1 1zm18 5V4a1 1 0 0 0-1-1h-5v2h4v4h2zm-2 10h-4v2h5a1 1 0 0 0 1-1v-5h-2v4zM9 21v-2H5v-4H3v5a1 1 0 0 0 1 1h5zM2 11h20v2H2z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <i
+                                        class="fa-regular fa-link bg-white text-gray-600 px-2 py-1.5 text-sm opacity-0 transform translate-x-5 transition-all ease-in-out duration-500 group-hover:opacity-100 group-hover:translate-x-0 delay-[300ms] hover:bg-gray-700 hover:text-white"></i>
+                                </a>
+                            </div>
+                            <div
+                                class="absolute inset-x-0 bottom-20 items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                                <button class="bg-gray-900 nunito text-white py-2 px-4 w-full custom-button">
+                                    Add To Cart
+                                </button>
+                            </div>
+                            <div class="mt-6">
+                                <h3 class="font-bold text-pink-500 mb-2">Product 1</h3>
+                                <p class="text-black">50.00$</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="relative group ">
+                            <img src="https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg"
+                                alt="Product 1" class="relative w-full h-auto object-cover">
+                            <div class="absolute right-0 top-2 m-4 flex flex-col gap-3">
+                                <a href="#">
+                                    <i
+                                        class="fa-regular fa-eye bg-white text-gray-600 px-2 py-1.5 text-sm opacity-0 transform translate-x-5 transition-all ease-in-out duration-500 group-hover:opacity-100 group-hover:translate-x-0 delay-[100ms] hover:bg-gray-700 hover:text-white"></i>
+                                </a>
+                                <a href="#">
+                                    <svg class="bg-white text-gray-600 px-2 py-1.5 text-sm opacity-0 transform translate-x-5 transition-all ease-in-out duration-500 group-hover:opacity-100 group-hover:translate-x-0 delay-[300ms] hover:bg-gray-700 hover:text-white"
+                                        xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M3 4v5h2V5h4V3H4a1 1 0 0 0-1 1zm18 5V4a1 1 0 0 0-1-1h-5v2h4v4h2zm-2 10h-4v2h5a1 1 0 0 0 1-1v-5h-2v4zM9 21v-2H5v-4H3v5a1 1 0 0 0 1 1h5zM2 11h20v2H2z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <i
+                                        class="fa-regular fa-link bg-white text-gray-600 px-2 py-1.5 text-sm opacity-0 transform translate-x-5 transition-all ease-in-out duration-500 group-hover:opacity-100 group-hover:translate-x-0 delay-[300ms] hover:bg-gray-700 hover:text-white"></i>
+                                </a>
+                            </div>
+                            <div
+                                class="absolute inset-x-0 bottom-20 items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                                <button class="bg-gray-900 nunito text-white py-2 px-4 w-full custom-button">
+                                    Add To Cart
+                                </button>
+                            </div>
+                            <div class="mt-6">
+                                <h3 class="font-bold text-pink-500 mb-2">Product 1</h3>
+                                <p class="text-black">50.00$</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="relative group ">
+                            <img src="https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg"
+                                alt="Product 1" class="relative w-full h-auto object-cover">
+                            <div class="absolute right-0 top-2 m-4 flex flex-col gap-3">
+                                <a href="#">
+                                    <i
+                                        class="fa-regular fa-eye bg-white text-gray-600 px-2 py-1.5 text-sm opacity-0 transform translate-x-5 transition-all ease-in-out duration-500 group-hover:opacity-100 group-hover:translate-x-0 delay-[100ms] hover:bg-gray-700 hover:text-white"></i>
+                                </a>
+                                <a href="#">
+                                    <svg class="bg-white text-gray-600 px-2 py-1.5 text-sm opacity-0 transform translate-x-5 transition-all ease-in-out duration-500 group-hover:opacity-100 group-hover:translate-x-0 delay-[300ms] hover:bg-gray-700 hover:text-white"
+                                        xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M3 4v5h2V5h4V3H4a1 1 0 0 0-1 1zm18 5V4a1 1 0 0 0-1-1h-5v2h4v4h2zm-2 10h-4v2h5a1 1 0 0 0 1-1v-5h-2v4zM9 21v-2H5v-4H3v5a1 1 0 0 0 1 1h5zM2 11h20v2H2z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <i
+                                        class="fa-regular fa-link bg-white text-gray-600 px-2 py-1.5 text-sm opacity-0 transform translate-x-5 transition-all ease-in-out duration-500 group-hover:opacity-100 group-hover:translate-x-0 delay-[300ms] hover:bg-gray-700 hover:text-white"></i>
+                                </a>
+                            </div>
+                            <div
+                                class="absolute inset-x-0 bottom-20 items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                                <button class="bg-gray-900 nunito text-white py-2 px-4 w-full custom-button">
+                                    Add To Cart
+                                </button>
+                            </div>
+                            <div class="mt-6">
+                                <h3 class="font-bold text-pink-500 mb-2">Product 1</h3>
+                                <p class="text-black">50.00$</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="carousel-slide">
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="relative group ">
+                            <img src="https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg"
+                                alt="Product 1" class="relative w-full h-auto object-cover">
+                            <div class="absolute right-0 top-2 m-4 flex flex-col gap-3">
+                                <a href="#">
+                                    <i
+                                        class="fa-regular fa-eye bg-white text-gray-600 px-2 py-1.5 text-sm opacity-0 transform translate-x-5 transition-all ease-in-out duration-500 group-hover:opacity-100 group-hover:translate-x-0 delay-[100ms] hover:bg-gray-700 hover:text-white"></i>
+                                </a>
+                                <a href="#">
+                                    <svg class="bg-white text-gray-600 px-2 py-1.5 text-sm opacity-0 transform translate-x-5 transition-all ease-in-out duration-500 group-hover:opacity-100 group-hover:translate-x-0 delay-[300ms] hover:bg-gray-700 hover:text-white"
+                                        xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M3 4v5h2V5h4V3H4a1 1 0 0 0-1 1zm18 5V4a1 1 0 0 0-1-1h-5v2h4v4h2zm-2 10h-4v2h5a1 1 0 0 0 1-1v-5h-2v4zM9 21v-2H5v-4H3v5a1 1 0 0 0 1 1h5zM2 11h20v2H2z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <i
+                                        class="fa-regular fa-link bg-white text-gray-600 px-2 py-1.5 text-sm opacity-0 transform translate-x-5 transition-all ease-in-out duration-500 group-hover:opacity-100 group-hover:translate-x-0 delay-[300ms] hover:bg-gray-700 hover:text-white"></i>
+                                </a>
+                            </div>
+                            <div
+                                class="absolute inset-x-0 bottom-20 items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                                <button class="bg-gray-900 nunito text-white py-2 px-4 w-full custom-button">
+                                    Add To Cart
+                                </button>
+                            </div>
+                            <div class="mt-6">
+                                <h3 class="font-bold text-pink-500 mb-2">Product 1</h3>
+                                <p class="text-black">50.00$</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="relative group ">
+                            <img src="https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg"
+                                alt="Product 1" class="relative w-full h-auto object-cover">
+                            <div class="absolute right-0 top-2 m-4 flex flex-col gap-3">
+                                <a href="#">
+                                    <i
+                                        class="fa-regular fa-eye bg-white text-gray-600 px-2 py-1.5 text-sm opacity-0 transform translate-x-5 transition-all ease-in-out duration-500 group-hover:opacity-100 group-hover:translate-x-0 delay-[100ms] hover:bg-gray-700 hover:text-white"></i>
+                                </a>
+                                <a href="#">
+                                    <svg class="bg-white text-gray-600 px-2 py-1.5 text-sm opacity-0 transform translate-x-5 transition-all ease-in-out duration-500 group-hover:opacity-100 group-hover:translate-x-0 delay-[300ms] hover:bg-gray-700 hover:text-white"
+                                        xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M3 4v5h2V5h4V3H4a1 1 0 0 0-1 1zm18 5V4a1 1 0 0 0-1-1h-5v2h4v4h2zm-2 10h-4v2h5a1 1 0 0 0 1-1v-5h-2v4zM9 21v-2H5v-4H3v5a1 1 0 0 0 1 1h5zM2 11h20v2H2z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <i
+                                        class="fa-regular fa-link bg-white text-gray-600 px-2 py-1.5 text-sm opacity-0 transform translate-x-5 transition-all ease-in-out duration-500 group-hover:opacity-100 group-hover:translate-x-0 delay-[300ms] hover:bg-gray-700 hover:text-white"></i>
+                                </a>
+                            </div>
+                            <div
+                                class="absolute inset-x-0 bottom-20 items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                                <button class="bg-gray-900 nunito text-white py-2 px-4 w-full custom-button">
+                                    Add To Cart
+                                </button>
+                            </div>
+                            <div class="mt-6">
+                                <h3 class="font-bold text-pink-500 mb-2">Product 1</h3>
+                                <p class="text-black">50.00$</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="relative group ">
+                            <img src="https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg"
+                                alt="Product 1" class="relative w-full h-auto object-cover">
+                            <div class="absolute right-0 top-2 m-4 flex flex-col gap-3">
+                                <a href="#">
+                                    <i
+                                        class="fa-regular fa-eye bg-white text-gray-600 px-2 py-1.5 text-sm opacity-0 transform translate-x-5 transition-all ease-in-out duration-500 group-hover:opacity-100 group-hover:translate-x-0 delay-[100ms] hover:bg-gray-700 hover:text-white"></i>
+                                </a>
+                                <a href="#">
+                                    <svg class="bg-white text-gray-600 px-2 py-1.5 text-sm opacity-0 transform translate-x-5 transition-all ease-in-out duration-500 group-hover:opacity-100 group-hover:translate-x-0 delay-[300ms] hover:bg-gray-700 hover:text-white"
+                                        xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M3 4v5h2V5h4V3H4a1 1 0 0 0-1 1zm18 5V4a1 1 0 0 0-1-1h-5v2h4v4h2zm-2 10h-4v2h5a1 1 0 0 0 1-1v-5h-2v4zM9 21v-2H5v-4H3v5a1 1 0 0 0 1 1h5zM2 11h20v2H2z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <i
+                                        class="fa-regular fa-link bg-white text-gray-600 px-2 py-1.5 text-sm opacity-0 transform translate-x-5 transition-all ease-in-out duration-500 group-hover:opacity-100 group-hover:translate-x-0 delay-[300ms] hover:bg-gray-700 hover:text-white"></i>
+                                </a>
+                            </div>
+                            <div
+                                class="absolute inset-x-0 bottom-20 items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                                <button class="bg-gray-900 nunito text-white py-2 px-4 w-full custom-button">
+                                    Add To Cart
+                                </button>
+                            </div>
+                            <div class="mt-6">
+                                <h3 class="font-bold text-pink-500 mb-2">Product 1</h3>
+                                <p class="text-black">50.00$</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more slides as needed -->
+            </div>
+            <!-- Dots Navigation -->
+            <div class="carousel-dots">
+                <!-- Dots will be dynamically added here -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const carouselWrapper = document.querySelector('.carousel-wrapper');
+        const dotsContainer = document.querySelector('.carousel-dots');
+        const slides = document.querySelectorAll('.carousel-slide');
+        let index = 0;
+
+        function showSlide(index) {
+            const slideWidth = slides[0].offsetWidth;
+            carouselWrapper.style.transform = `translateX(${-index * slideWidth}px)`;
+
+            // Update dot navigation
+            const dots = document.querySelectorAll('.carousel-dot');
+            dots.forEach((dot, i) => {
+                dot.classList.toggle('active', i === index);
+            });
+        }
+
+        function createDots() {
+            slides.forEach((_, i) => {
+                const dot = document.createElement('span');
+                dot.classList.add('carousel-dot');
+                dot.addEventListener('click', () => {
+                    index = i;
+                    showSlide(index);
+                });
+                dotsContainer.appendChild(dot);
+            });
+        }
+
+        createDots();
+        showSlide(index);
+    </script>
+</body>
+
+</html>

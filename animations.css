@@ -1,0 +1,203 @@
+ 
+@keyframes drop-down{
+0% {
+    /* transform: translateY(40px); */
+    transform: translateY(20px);
+    opacity: 0;
+    }
+    100% {
+    transform: translateY(0);
+    opacity: 1;
+    }
+}
+.animate-drop-down  {
+    animation: drop-down ease-in-out 150ms;
+    animation-delay: .4s;
+    animation-fill-mode:backwards ;
+    z-index: 10;
+}
+
+@keyframes drop-down-product{
+    0% {
+        /* transform: translateY(40px); */
+        transform: translate(-50%, 20px);
+        opacity: 0;
+        }
+        100% {
+        transform: translate(-50%, 0);
+        opacity: 1;
+        }
+    }
+    .animate-drop-down-product  {
+        animation: drop-down-product ease-in-out 150ms;
+        animation-delay: .4s;
+        animation-fill-mode:backwards ;
+        z-index: 10;
+    }
+
+    @keyframes slideInRight {
+        from {
+            transform: translateX(100%);
+        }
+        to {
+            transform: translateX(0);
+        }
+    }
+    
+    @keyframes slideInLeft {
+        from {
+            transform: translateX(-100%);
+        }
+        to {
+            transform: translateX(0);
+        }
+    }
+    
+    .animate-slide-in-right {
+        animation: slideInRight 0.7s ease-out forwards;
+    }
+    
+    .animate-slide-in-left {
+        animation: slideInLeft 0.7s ease-out forwards;
+    }
+
+    .active-btn {
+        /* @apply text-pink-500 border-pink-500 border-b-[2px] */
+        color: #ec4899;
+        border-bottom: 2px solid #ec4899;
+    }
+
+    .active-btn::before {
+        content: '';
+        position: absolute;
+        bottom: -7px; /* Adjust based on the size of the circle */
+        left: 50%;
+        transform: translateX(-50%);
+        width: 12px;
+        height: 12px;
+        background-color:#ec4899 ; /* Tailwind's pink-500 color */
+        border-radius: 50%;
+        opacity: 1.0;
+    }
+
+    .custom-hover:hover::before {
+        content: '';
+        position: absolute;
+        bottom: -7px; /* Adjust based on the size of the circle */
+        left: 50%;
+        transform: translateX(-50%);
+        width: 12px;
+        height: 12px;
+        background-color:#ec4899 ; /* Tailwind's pink-500 color */
+        border-radius: 50%;
+        opacity: 1.0;
+    }
+
+    /* Add to cart Animation */
+
+    .custom-button {
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+    }
+
+    .custom-button::before, .custom-button::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        width: 0;
+        height: 100%;
+        background-color: #ec4899; /* Tailwind's pink-500 color */
+        z-index: -1;
+        transition: width 0.7s ease;
+    }
+
+    .custom-button::before {
+        left: 0;
+    }
+
+    .custom-button::after {
+        right: 0;
+    }
+
+    .custom-button:hover::before, .custom-button:hover::after {
+        width: 50%;
+    }
+
+   /* ICON-SLIDE */
+
+
+   @keyframes slideIn {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .icon-slide {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  
+  .icon-slide-1 {
+    animation: slideIn 0.5s ease-in-out forwards 0.2s;
+  }
+  
+  .icon-slide-2 {
+    animation: slideIn 0.5s ease-in-out forwards 0.4s;
+  }
+  
+  .icon-slide-3 {
+    animation: slideIn 0.5s ease-in-out forwards 0.6s;
+  }
+  
+  .group:hover .icon-slide-1,
+  .group:hover .icon-slide-2,
+  .group:hover .icon-slide-3 {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  
+
+  /* Carousel Animations */
+/* src/Carousel.css */
+
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.carousel-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.carousel-dot {
+    display: inline-block;
+    width: 18px;
+    height: 5px;
+    margin: 0 4px;
+    border-radius: 20px;
+    background-color: #f9a8d4;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.carousel-dot.active {
+    background-color: #ec4899;
+    width: 30px;
+}

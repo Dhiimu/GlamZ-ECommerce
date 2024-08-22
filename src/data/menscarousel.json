@@ -1,0 +1,670 @@
+[
+  {
+    "heading": "Men's Fashionable Items",
+    "leftImageURL": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/category-1.jpg",
+    "subText": "Men's - Fashion",
+    "products": [
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 1",
+        "price": "$29.99",
+        "links": {
+          "details": "https://example.com/product1/details",
+          "buy": "https://example.com/product1/buy",
+          "reviews": "https://example.com/product1/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-8.jpg",
+        "name": "Product 2",
+        "price": "$39.99",
+        "links": {
+          "details": "https://example.com/product2/details",
+          "buy": "https://example.com/product2/buy",
+          "reviews": "https://example.com/product2/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-14.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-15.jpg",
+        "name": "Product 3",
+        "price": "$59.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$69.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      }
+    ]
+  },
+  {
+    "heading": "Women's Fashionable Items",
+    "leftImageURL": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/category-1.jpg",
+    "subText": "Women's - Fashion",
+    "products": [
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 1",
+        "price": "$29.99",
+        "links": {
+          "details": "https://example.com/product1/details",
+          "buy": "https://example.com/product1/buy",
+          "reviews": "https://example.com/product1/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-8.jpg",
+        "name": "Product 2",
+        "price": "$39.99",
+        "links": {
+          "details": "https://example.com/product2/details",
+          "buy": "https://example.com/product2/buy",
+          "reviews": "https://example.com/product2/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-14.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-15.jpg",
+        "name": "Product 3",
+        "price": "$59.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$69.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      }
+    ]
+  },
+  {
+    "heading": "Modern Trending Items",
+    "leftImageURL": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/category-1.jpg",
+    "subText": "Trending",
+    "products": [
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 1",
+        "price": "$29.99",
+        "links": {
+          "details": "https://example.com/product1/details",
+          "buy": "https://example.com/product1/buy",
+          "reviews": "https://example.com/product1/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-8.jpg",
+        "name": "Product 2",
+        "price": "$39.99",
+        "links": {
+          "details": "https://example.com/product2/details",
+          "buy": "https://example.com/product2/buy",
+          "reviews": "https://example.com/product2/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-14.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-15.jpg",
+        "name": "Product 3",
+        "price": "$59.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$69.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      }
+    ]
+  },
+  {
+    "heading": "Top Rated Products",
+    "leftImageURL": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/category-1.jpg",
+    "subText": "Top-Rated",
+    "products": [
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 1",
+        "price": "$29.99",
+        "links": {
+          "details": "https://example.com/product1/details",
+          "buy": "https://example.com/product1/buy",
+          "reviews": "https://example.com/product1/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-8.jpg",
+        "name": "Product 2",
+        "price": "$39.99",
+        "links": {
+          "details": "https://example.com/product2/details",
+          "buy": "https://example.com/product2/buy",
+          "reviews": "https://example.com/product2/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-14.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-15.jpg",
+        "name": "Product 3",
+        "price": "$59.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$69.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      },
+      {
+        "image": "https://haine.mhrtheme.com/wp-content/uploads/2022/06/product-13.jpg",
+        "name": "Product 3",
+        "price": "$49.99",
+        "links": {
+          "details": "https://example.com/product3/details",
+          "buy": "https://example.com/product3/buy",
+          "reviews": "https://example.com/product3/reviews"
+        }
+      }
+    ]
+  }
+]
